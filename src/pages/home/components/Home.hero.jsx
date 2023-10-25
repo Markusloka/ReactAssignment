@@ -1,6 +1,6 @@
 import "./style.css";
-import ArrowUp from "../../assets/hero/ArrowUp Right.svg";
-import TabletMan from "../../assets/hero/Mantablet.svg";
+import ArrowUp from "../../../assets/hero/ArrowUp Right.svg";
+import TabletMan from "../../../assets/hero/Mantablet.svg";
 
 function Hero() {
   return (

@@ -1,0 +1,183 @@
+
+
+body {
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+/* hero section */
+.hero {
+  width: 100%;
+  height: 780px;
+  background-color: #f0efe9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+}
+
+.heroSlogan {
+  width: 831px;
+  height: 308px;
+  font-family: "DM Sans";
+  font-size: 96px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+
+.heroText {
+  width: 698px;
+  height: 57px;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  color: rgba(25, 25, 25, 0.7);
+}
+
+.heroImage {
+  margin-top: 175px;
+}
+
+.mainHeroButton {
+  width: 208px;
+  height: 56px;
+  border-color: transparent;
+  border-radius: 40px;
+  background: #f9d783;
+}
+
+.mainHeroButton:hover {
+  background-color: #d7b45b;
+  cursor: pointer;
+}
+
+.secHeroButton {
+  width: 180px;
+  height: 56px;
+  border-color: #191919;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 40px;
+  background: #f0efe9;
+  margin-left: 2%;
+}
+
+.secHeroButton:hover {
+  background-color: #b4b3ad;
+  cursor: pointer;
+}
+
+/* logos section */
+
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 88px;
+  margin-top: 80px;
+}
+
+
+
+/* features section */
+
+
+.features {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1520px;
+  height: 600px;
+  border-color: rgba(25, 25, 25, 0.2);
+  border-width: 1.2000000476837158px;
+  border-style: solid;
+  border-radius: 2px;
+  background: #ffffff;
+  margin-top: 50px;
+}
+
+.feature {
+  margin-right: 20px;
+}
+
+.featureSub {
+  width: 90px;
+  height: 21px;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  font-style: normal;
+  text-align: left;
+  color: #f94d1c;
+}
+
+.featureTitle {
+  width: 460px;
+  height: 160px;
+  font-family: "DM Sans";
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 54px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+
+.featureMainButton {
+  width: 460px;
+  height: 56px;
+  border-radius: 40px;
+  border-color: transparent;
+  background: #f9d783;
+}
+
+.featureMainButton:hover {
+  background-color: #d7b45b;
+  cursor: pointer;
+}
+
+.featureLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.featureRight {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  justify-content: center;
+}
+.featureRightTop {
+  display: flex;
+  flex-direction: row;
+}
+.featureRightBottom {
+  display: flex;
+  flex-direction: row;
+}
