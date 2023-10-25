@@ -9,45 +9,45 @@ import ArrowUp from "../../../assets/hero/ArrowUp Right.svg"
 
 function Features(){
     return (
-        <div class="features">
-        <div class="featureLeft">
-          <p class="featureSub">Features</p>
-          <h1 class="featureTitle">
+        <div className="features">
+        <div className="featureLeft">
+          <p className="featureSub">Features</p>
+          <h1 className="featureTitle">
             Our Accounting is trusted by thousands of companies
           </h1>
-          <button class="featureMainButton">
+          <button className="featureMainButton">
             Learn More <img src={ArrowUp} />
           </button>
         </div>
-        <div class="featureRight">
-          <div class="featureRightTop">
-            <div class="feature">
+        <div className="featureRight">
+          <div className="featureRightTop">
+            <div className="feature">
               <img src={HandShake} />
-              <h1 class="featuresTitle">Busniess Advice</h1>
-              <p class="featuresSub">
+              <h1 className="featuresTitle">Busniess Advice</h1>
+              <p className="featuresSub">
                 Lorem ipsum, dolor sit amet consectetur adipiscing elit.
               </p>
             </div>
-            <div class="feature">
+            <div className="feature">
               <img src={Idea} />
-              <h1 class="featuresTitle">Startup Busniess</h1>
-              <p class="featuresSub">
+              <h1 className="featuresTitle">Startup Busniess</h1>
+              <p className="featuresSub">
                 Lorem ipsum, dolor sit amet consectetur adipiscing elit.
               </p>
             </div>
           </div>
-          <div class="featureRightBottom">
-            <div class="feature">
+          <div className="featureRightBottom">
+            <div className="feature">
               <img src={RisingStock} />
-              <h1 class="featuresTitle">Financial Advice</h1>
-              <p class="featuresSub">
+              <h1 className="featuresTitle">Financial Advice</h1>
+              <p className="featuresSub">
                 Lorem ipsum, dolor sit amet consectetur adipiscing elit.
               </p>
             </div>
-            <div class="feature">
+            <div className="feature">
               <img src={BoxGear} />
-              <h1 class="featuresTitle">Risk Managment</h1>
-              <p class="featuresSub">
+              <h1 className="featuresTitle">Risk Managment</h1>
+              <p className="featuresSub">
                 Lorem ipsum, dolor sit amet consectetur adipiscing elit.
               </p>
             </div>
