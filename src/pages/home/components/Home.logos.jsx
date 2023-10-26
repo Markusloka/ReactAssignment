@@ -1,4 +1,4 @@
-import "./style.css";
+import "./style.logos.css";
 import PaperzLogo from "../../../assets/logos/Paperz.svg";
 import DorfusLogo from "../../../assets/logos/DorfusLogo.svg";
 import MartinoLogo from "../../../assets/logos/MartinoLogo.svg";

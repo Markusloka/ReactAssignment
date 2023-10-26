@@ -1,0 +1,78 @@
+/* hero section */
+.hero {
+    width: 100%;
+    height: 780px;
+    background-color: #f0efe9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .heroContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .rightSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+  }
+  
+  .heroSlogan {
+    width: 831px;
+    height: 308px;
+    font-family: "DM Sans";
+    font-size: 96px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    color: #191919;
+  }
+  
+  .heroText {
+    width: 698px;
+    height: 57px;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: rgba(25, 25, 25, 0.7);
+  }
+  
+  .heroImage {
+    margin-top: 175px;
+  }
+  
+  .mainHeroButton {
+    width: 208px;
+    height: 56px;
+    border-color: transparent;
+    border-radius: 40px;
+    background: #f9d783;
+  }
+  
+  .mainHeroButton:hover {
+    background-color: #d7b45b;
+    cursor: pointer;
+  }
+  
+  .secHeroButton {
+    width: 180px;
+    height: 56px;
+    border-color: #191919;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 40px;
+    background: #f0efe9;
+    margin-left: 2%;
+  }
+  
+  .secHeroButton:hover {
+    background-color: #b4b3ad;
+    cursor: pointer;
+  }
+  

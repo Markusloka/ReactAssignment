@@ -1,4 +1,4 @@
-import "./style.css"
+import "./style.features.css"
 import BoxGear from "../../../assets/features/boxgear.svg"
 import HandShake from "../../../assets/features/handshake.svg"
 import Idea from "../../../assets/features/idea.svg"

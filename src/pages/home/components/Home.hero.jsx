@@ -1,4 +1,4 @@
-import "./style.css";
+import "./style.hero.css";
 import ArrowUp from "../../../assets/hero/ArrowUp Right.svg";
 import TabletMan from "../../../assets/hero/Mantablet.svg";
 
