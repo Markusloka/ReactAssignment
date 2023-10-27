@@ -1,0 +1,122 @@
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 870px;
+  background: #f0efe9;
+}
+
+.serviceSubText {
+  margin-left: 300px;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  font-style: normal;
+  text-align: left;
+  color: #f94d1c;
+}
+
+.serviceTitle {
+  display: flex;
+  justify-self: center;
+  margin-left: 300px;
+  justify-content: flex-start;
+  font-family: "DM Sans";
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 54px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+
+.serviceText {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.serviceCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.servicesCardWhite {
+  width: 308px;
+  height: 333px;
+  background: #ffffff;
+  filter: drop-shadow(0px 18px 20px rgba(44, 44, 44, 0.15));
+}
+
+.servicesCardOrange {
+  width: 308px;
+  height: 333px;
+  background: #f9d783;
+  filter: drop-shadow(0px 18px 20px rgba(44, 44, 44, 0.15));
+}
+.serviceCardLine {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.serviceCardTitle {
+  margin-left: 20px;
+}
+.serviceCardText {
+  margin-left: 20px;
+}
+
+.serviceCardButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
+  margin-top: 100px;
+  margin-left: 200px;
+  width: 56px;
+  height: 56px;
+  border-color: transparent;
+  border-radius: 40px;
+  background: #191919;
+}
+.serviceCardButtonOrange {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 200px;
+  width: 56px;
+  height: 56px;
+  border-color: transparent;
+  border-radius: 40px;
+  background: #ffffff;
+}
+.serviceButton {
+  width: 221px;
+  height: 56px;
+  border-color: #191919;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 40px;
+  margin-top: 40px;
+  background: #f0efe9;
+}
+
+.serviceButton:hover {
+  background-color: #b4b3ad;
+  cursor: pointer;
+}
+
+.elementServices {
+  position: absolute;
+  display: flex;
+  margin-top: 660px;
+  align-self: flex-end;
+}
+.serviceCardArrow {
+  transform: rotate(30deg);
+}

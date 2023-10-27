@@ -1,0 +1,88 @@
+.Choose {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: center;
+}
+.chooseLeft {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.chooseText {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+.chooseUsSub {
+  width: 143px;
+  height: 22px;
+
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  font-style: normal;
+  text-align: left;
+  color: #f94d1c;
+}
+.chooseUsTitle {
+  width: 447px;
+  height: 162px;
+  font-family: "DM Sans";
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 55px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+.chooseReasons {
+  width: 420px;
+  height: 377.8px;
+}
+.reasons {
+  display: flex;
+}
+.reasonsText {
+  margin-left: 40px;
+}
+.reasonsTilte {
+  width: 336px;
+  height: 30px;
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+.reasonsSub {
+  width: 336px;
+  height: 21px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+  font-style: normal;
+  text-align: left;
+  color: rgba(25, 25, 25, 0.7);
+}
+
+.chooseRight {
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-end;
+}
+
+.chooseImage {
+  position: absolute;
+}
+
+.behindImg {
+  width: 1057px;
+  height: 425px;
+  background: #f0efe9;
+}
