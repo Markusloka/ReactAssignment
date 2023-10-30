@@ -1,0 +1,107 @@
+.Projects {
+  display: flex;
+  flex-direction: column;
+  height: 1271.6px;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.projectsText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectsSub {
+  width: 192px;
+  height: 21px;
+  margin-bottom: -2%;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  font-style: normal;
+  text-align: center;
+  color: #f94d1c;
+}
+
+.projectsTitle {
+  width: 882.9px;
+  height: 52px;
+  font-family: "DM Sans";
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 55px;
+  font-style: normal;
+  text-align: center;
+  color: #191919;
+}
+
+.projectName {
+  width: 645px;
+  height: 26px;
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+
+.projectsButton {
+  width: 124px;
+  height: 44px;
+  border-radius: 40px;
+  border-color: transparent;
+  background: #ffffff;
+  margin-left: 83%;
+}
+
+.projectsButton :hover {
+  cursor: pointer;
+}
+
+.projectButton {
+  margin-left: 40%;
+  width: 221px;
+  height: 56px;
+  border-radius: 40px;
+  background: #191919;
+  color: #b4b3ad;
+  margin-top: 5%;
+}
+
+.Project {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 30px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.div3 {
+  grid-area: 2 / 1 / 3 / 2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.div4 {
+  grid-area: 2 / 2 / 3 / 3;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

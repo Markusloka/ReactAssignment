@@ -5,6 +5,7 @@ import Logos from "./components/Home.logos";
 import { About } from "./components/Home.about";
 import { Services } from "./components/Home.service";
 import { Choose } from "./components/Home.choose";
+import { Projects } from "./components/Home.projects";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <About />
       <Services />
       <Choose />
+      <Projects />
     </Fragment>
   );
 }
