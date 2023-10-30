@@ -1,0 +1,204 @@
+.Team {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 1964px;
+  background: rgba(240, 208, 130, 0.93);
+}
+
+.teamText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+.textButton {
+  display: flex;
+  align-items: center;
+  margin-left: 20%;
+}
+.teamButton {
+  width: 221px;
+  height: 56px;
+  margin-left: 6%;
+  border-color: #191919;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 40px;
+
+  background: #f9d783;
+  color: #191919;
+}
+.teamSub {
+  width: 138px;
+  height: 22px;
+  margin-bottom: -2%;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  font-style: normal;
+  text-align: left;
+  color: #f94d1c;
+}
+
+.teamTitle {
+  width: 747px;
+  height: 60px;
+  font-family: "DM Sans";
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 55px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+
+.teamMembers {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 0px;
+  justify-items: center;
+}
+
+.member1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.member2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.member3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.member4 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+
+.Testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  height: 887px;
+  border-color: #191919;
+  background: #ffffff;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 0px;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.testimonial1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.testimonial2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.testimonial3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.testimonialText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonialSub {
+  width: 105px;
+  height: 22px;
+
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  font-style: normal;
+  text-align: center;
+  color: #f94d1c;
+  margin-bottom: -4%;
+}
+
+.testimonialTitle {
+  width: 640px;
+  height: 60px;
+
+  font-family: "DM Sans";
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 55px;
+  font-style: normal;
+  text-align: center;
+  color: #191919;
+}
+
+.testimonailButton {
+  width: 181px;
+  height: 56px;
+  border-radius: 40px;
+  color: white;
+  background: #191919;
+  margin-top: 10%;
+}
+
+.reviewProfile {
+  display: flex;
+  align-items: center;
+  width: 326.1px;
+  height: 70px;
+  margin-top: 20%;
+}
+
+.reviewText {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewSub {
+  width: 356px;
+  height: 158px;
+
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 34px;
+  font-style: italic;
+  text-align: left;
+  color: #191919;
+}
+
+.reviewName {
+  width: 240.1px;
+  height: 30px;
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+  margin-bottom: -5%;
+}
+
+.reviewTitle {
+  width: 219px;
+  height: 21px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+  font-style: normal;
+  text-align: left;
+  color: #f94d1c;
+}
