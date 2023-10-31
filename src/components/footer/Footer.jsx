@@ -1,5 +1,5 @@
 import "./style.footer.css";
-import LogoCrito from "../../../assets/hero/LogoCrito.svg";
+import LogoCrito from "../../assets/hero/LogoCrito.svg";
 export function Footer() {
   return (
     <div className="footer">

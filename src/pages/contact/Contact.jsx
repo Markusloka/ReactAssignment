@@ -5,11 +5,12 @@ import { Maps } from "./components/Contact.maps";
 import { Message } from "./components/Contact.message";
 
 export function Contact() {
-  return;
-  <Fragment>
-    <Breadcrum />
-    <Cards />
-    <Message />
-    <Maps />
-  </Fragment>;
+  return (
+    <Fragment>
+      <Breadcrum />
+      <Cards />
+      <Message />
+      <Maps />
+    </Fragment>
+  );
 }

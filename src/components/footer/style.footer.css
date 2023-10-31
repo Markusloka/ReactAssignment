@@ -1,8 +1,12 @@
 .footer {
-  display: flex;
-  height: 513px;
+  position: relative;
   width: 100%;
-  justify-content: center;
+  top: var(--header-height);
+  min-height: calc(100vh - var(--header-height) - 50px);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--header-height);
+  overflow: hidden;
   background: #0e1021;
 }
 
