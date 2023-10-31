@@ -1,11 +1,11 @@
 import "./style.footer.css";
-
+import LogoCrito from "../../../assets/hero/LogoCrito.svg";
 export function Footer() {
   return (
     <div className="footer">
       <div className="footerBox">
         <div className="footerRow1">
-          <img className="footerLogo" src="./assets/footer/Logo.svg " />
+          <img className="footerLogo" src={LogoCrito} />
           <p className="footerSub">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
             obcaecati voluptas voluptates! Voluptates laborum nam ratione minus

@@ -6,14 +6,7 @@ export function News() {
       <h1 className="newsPaperText">Get News Updates By Signup</h1>
       <div className="newsPaperRight">
         <form className="emailForm">
-          <input
-            type="text"
-            id="emailForms"
-            name="fname"
-            placeholder="username@domain.com"
-            style="border: 0"
-            width="100%"
-          />
+          <input />
         </form>
         <button className="buttonForm">
           Subscribe <img src={ArrowUp} />
