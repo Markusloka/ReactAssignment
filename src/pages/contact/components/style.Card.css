@@ -6,8 +6,8 @@
   border-color: rgba(25, 25, 25, 0.2);
   border-width: 1px;
   border-style: solid;
-
   background: #ffffff;
+  margin-left: 1%;
 }
 .rightSide {
   display: flex;
@@ -15,6 +15,8 @@
 .leftSide {
   display: flex;
   flex-direction: column;
+  margin-left:2%;
+
 }
 .cardTitle {
   width: 240px;

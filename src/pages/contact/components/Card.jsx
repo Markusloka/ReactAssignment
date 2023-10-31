@@ -1,3 +1,4 @@
+import "./style.Card.css"
 export function Card(props) {
   return (
     <div className="cardBody">

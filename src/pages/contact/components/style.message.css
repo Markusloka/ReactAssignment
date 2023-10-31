@@ -1,0 +1,71 @@
+.body{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.messagingBody{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 1320px;
+height: 766px;
+background: #f0efe9
+
+}
+.messagingTitle{
+width: 447px;
+height: 105px;
+
+
+font-family: "DM Sans";
+font-size: 45px;
+font-weight: bold;
+line-height: 55px;
+font-style: normal;
+text-align: center;
+color: #191919;
+
+}
+.messagingForm{
+display: flex;
+flex-direction: column;
+}
+
+.Name{
+width: 1021px;
+height: 56px;
+border-radius: 40px;
+background: #ffffff
+}
+
+.Email{
+margin-top: 2%;
+width: 1021px;
+height: 56px;   
+border-radius: 40px;
+background: #ffffff
+
+}
+
+.Message{
+margin-top: 2%;
+width: 1021px;
+height: 160px;
+border-radius: 40px;
+background: #ffffff
+}
+
+
+.sendButton
+{
+    margin-top: 2%;
+    width: 1021px;
+    height: 56px;
+    border-radius: 40px;
+    border-color: transparent;
+    background: #f9d783
+
+}
