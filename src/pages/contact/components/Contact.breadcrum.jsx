@@ -3,10 +3,10 @@ import Element from "../../../assets/services/Group1.png";
 export function Breadcrum() {
   return (
     <div className="breadcrum">
-      <p className="breadsubtext">
+      <div className="breadsubtext">
         <p>Home</p>
         <p>Contact</p>
-      </p>
+      </div>
       <h1 className="breadTitle">Let's Connect</h1>
 
       <img className="breadElement" src={Element} />
