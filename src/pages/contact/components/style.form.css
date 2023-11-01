@@ -1,0 +1,36 @@
+.messagingForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.Name {
+  width: 1021px;
+  height: 56px;
+  border-radius: 40px;
+  background: #ffffff;
+}
+
+.Email {
+  margin-top: 2%;
+  width: 1021px;
+  height: 56px;
+  border-radius: 40px;
+  background: #ffffff;
+}
+
+.Message {
+  margin-top: 2%;
+  width: 1021px;
+  height: 160px;
+  border-radius: 40px;
+  background: #ffffff;
+}
+
+.sendButton {
+  margin-top: 2%;
+  width: 1021px;
+  height: 56px;
+  border-radius: 40px;
+  border-color: transparent;
+  background: #f9d783;
+}

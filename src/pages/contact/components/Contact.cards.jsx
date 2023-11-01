@@ -8,7 +8,6 @@ import "./style.cards.css";
 export function Cards() {
   return (
     <Fragment>
-
       <div className="cards">
         <Card
           img={Visit}
@@ -17,7 +16,7 @@ export function Cards() {
           sub2="111 34 STOCKHOLM"
         />
         <Card
-           img={Phone}
+          img={Phone}
           title="Call us"
           sub1="+46 (8) 121 470 50 "
           sub2="+46 (8) 121 470 51"
@@ -28,7 +27,7 @@ export function Cards() {
           sub1="info@crito.com "
           sub2="support@crito.com"
         />
-        </div>
+      </div>
     </Fragment>
   );
 }
