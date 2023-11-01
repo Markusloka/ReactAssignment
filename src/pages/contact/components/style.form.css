@@ -1,33 +1,38 @@
 .messagingForm {
   display: flex;
   flex-direction: column;
+  gap: 2rem;
+}
+.messagingForm input,
+.messagingForm textarea {
+  padding: 8px 20px;
 }
 
-.Name {
+.namn {
   width: 1021px;
   height: 56px;
   border-radius: 40px;
+  border: none;
   background: #ffffff;
 }
 
-.Email {
-  margin-top: 2%;
+.email {
   width: 1021px;
   height: 56px;
   border-radius: 40px;
+  border: none;
   background: #ffffff;
 }
 
-.Message {
-  margin-top: 2%;
+.message {
   width: 1021px;
   height: 160px;
   border-radius: 40px;
+  border: none;
   background: #ffffff;
 }
 
 .sendButton {
-  margin-top: 2%;
   width: 1021px;
   height: 56px;
   border-radius: 40px;
