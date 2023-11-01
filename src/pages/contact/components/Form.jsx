@@ -8,7 +8,6 @@ export function Form() {
     formState: { errors },
     handleSubmit,
   } = useForm();
-  console.log(errors);
   return (
     <form
       className="messagingForm"
