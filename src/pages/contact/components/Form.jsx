@@ -22,7 +22,10 @@ export function Form() {
           placeholder="Name*"
           {...register("firstName", {
             required: "First name is requried",
-            minLength: 2,
+            minLength: {
+              value: 2,
+              message: "You need atleast two characters",
+            },
           })}
           aria-invalid={errors.firstName ? "true" : "false"}
         />
