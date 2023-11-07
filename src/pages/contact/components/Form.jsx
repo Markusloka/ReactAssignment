@@ -12,6 +12,7 @@ export function Form() {
     <form
       className="messagingForm"
       onSubmit={handleSubmit((data) => {
+        //här fyller vi in api:et
         console.log(data);
       })}
     >
