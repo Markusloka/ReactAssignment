@@ -6,6 +6,7 @@ import Navbar from "./components/navbar/Navbar.jsx";
 import Home from "./pages/home/Home.jsx";
 import { Contact } from "./pages/contact/Contact.jsx";
 import { Footer } from "./components/footer/Footer";
+import News from "./pages/news/News.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/" element={<Home />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Home" element={<Home />} />
+        <Route path="/News" element={<News />} />
       </Routes>
     </BrowserRouter>
     <Footer />

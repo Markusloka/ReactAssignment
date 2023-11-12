@@ -1,46 +1,46 @@
 .blogItems {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    gap: 10px;
-    margin-left: 10%;
-    margin-top: 2%;
-    justify-content: center;
-  }
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  gap: 10px;
+  margin-left: 10%;
+  margin-top: 2%;
+  justify-content: center;
+}
 
-  .blogItem {
-    grid-area: 1 / 1 / 2 / 2;
-    margin-left: 10%;
-  }
+.blogItem {
+  grid-area: 1 / 1 / 2 / 2;
+  margin-left: 10%;
+}
 
-  .blogSub {
-    font-family: "Inter";
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 26px;
-    font-style: normal;
-    text-align: left;
-    color: #6a6c71;
-  }
-  
-  .blogTitle {
-    font-family: "DM Sans";
-    font-size: 22px;
-    font-weight: bold;
-    line-height: 33px;
-    font-style: normal;
-    text-align: left;
-    color: #191919;
-  }
-  
-  .blogText {
-    font-family: "Inter";
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 28px;
-    font-style: normal;
-    text-align: left;
-    color: rgba(25, 25, 25, 0.7);
-  }
+.blogSub {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 26px;
+  font-style: normal;
+  text-align: left;
+  color: #6a6c71;
+}
+
+.blogTitle {
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+
+.blogText {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+  font-style: normal;
+  text-align: left;
+  color: rgba(25, 25, 25, 0.7);
+}
