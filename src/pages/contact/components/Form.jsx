@@ -1,30 +1,52 @@
 import { useForm } from "react-hook-form";
 import "./style.form.css";
 import ArrowUp from "../../../assets/hero/ArrowUp Right.svg";
+
 export function Form() {
   const {
     register,
-
     formState: { errors },
     handleSubmit,
   } = useForm();
+
+  const handleMessage = async (data) => {
+    try {
+      const result = await fetch(
+        "https://win23-assignment.azurewebsites.net/api/contactform",
+        {
+          method: "POST",
+          headers: {
+            "content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            name: data.firstName,
+            email: data.email,
+            message: data.message,
+          }),
+        }
+      );
+      console.log(result);
+      const message = await result.json();
+      console.log("Parsed Message:", message);
+    } catch (error) {
+      console.error("Error sending message:", error);
+    }
+  };
+
   return (
     <form
       className="messagingForm"
-      onSubmit={handleSubmit((data) => {
-        //här fyller vi in api:et
-        console.log(data);
-      })}
+      onSubmit={handleSubmit((data) => handleMessage(data))}
     >
       <div>
         <input
           className="namn"
           placeholder="Name*"
           {...register("firstName", {
-            required: "First name is requried",
+            required: "First name is required",
             minLength: {
               value: 2,
-              message: "You need atleast two characters",
+              message: "You need at least two characters",
             },
           })}
           aria-invalid={errors.firstName ? "true" : "false"}
@@ -51,7 +73,7 @@ export function Form() {
       </div>
 
       <button type="submit" className="sendButton">
-        Send Message <img src={ArrowUp} />
+        Send Message <img src={ArrowUp} alt="Arrow Up" />
       </button>
     </form>
   );
