@@ -56,6 +56,7 @@ export function Form() {
       <div>
         <input
           className="email"
+          type="email"
           placeholder="Email*"
           {...register("email", { required: "Need to fill a valid email" })}
           aria-invalid={errors.email ? "true" : "false"}
