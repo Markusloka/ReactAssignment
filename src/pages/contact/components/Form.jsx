@@ -36,14 +36,18 @@ export function Form() {
   return (
     <form
       className="messagingForm"
-      onSubmit={handleSubmit((data) => handleMessage(data))}
+      onSubmit={handleSubmit((data) => {
+        //här fyller vi in api:et
+        console.log(data);
+        handleMessage(data);
+      })}
     >
       <div>
         <input
           className="namn"
           placeholder="Name*"
           {...register("firstName", {
-            required: "First name is required",
+            required: " First name is required",
             minLength: {
               value: 2,
               message: "You need at least two characters",
